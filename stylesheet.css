@@ -107,18 +107,19 @@ a {
  
 body
 {
+  margin: 0;
+  padding: 0;
     background-color: white;
 }
  
-.body
+.container
 {
-    width: 880px;
-    margin: 35px auto;
-    background-color: white;
-    padding: 20px;
-    overflow: hidden;
+    width: 80%;
+    margin: auto;
+       overflow: hidden;
+
 }
- 
+
 .body h2
 {
     color: black;
@@ -135,6 +136,20 @@ body
     border-color: yellow;
 
 }
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 25%;
+  padding: 10px;
+}
+ #boxes .box img{
+  width: 200px;
+
+}
 
     .garis {
         border-width: 3px;
@@ -149,47 +164,12 @@ body
     }
 
    .garis_tepi {
+    margin-top: 30px;
      border: 2px solid yellow;
         width:200px;
      height: 25px;
          text-align: center;
          }
-
-.list-produk
-{
-    border: 1px solid gainsboro;
-    padding: 10px;
-    float: left;
-    width: 200px;
-    margin: 5px;
-}
- 
-.list-produk:hover
-{
-    transition-duration: 700ms;
-    box-shadow: 5px 5px gainsboro;
-}
- 
-.list-produk img
-{
-    width: 100%;
-    height: 175px;
-    display: block;
-    margin-bottom: 25px;
-}
- 
-.list-produk h4
-{
-    color: black;
-    text-align: center;
-    margin-bottom: 5px;
-}
- .list-produk h5
-{
-    color: red;
-    text-align: center;
-    margin-bottom: 5px;
-}
 
 /*---------------bagian footer----------*/
 .container {
