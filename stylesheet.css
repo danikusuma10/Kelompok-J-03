@@ -1,3 +1,31 @@
+/*Header*/
+.header-list a {
+  list-style: none;
+  float: right;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.header-list a:hover {
+  background-color: #fddb6f;
+  display: block;
+}
+
+.header-logo {
+  float: left;
+  font-size: 30px;
+  padding: 20px;
+  font-weight: 200;
+  text-shadow: 2px 3px 1px orange;
+}
+
+.header {
+  height: 80px;
+  margin: 20px;
+}
+
+/*End Header*/
 * {
   box-sizing: border-box;
 }
@@ -49,9 +77,10 @@ a {
   transition: all 0.5s;
 }
 
-/*----------------------------------end bagian 2-----------------------------------------*/
 
 
+
+/*---- bagian 3-----*/
 
 .btn {
   padding: 12px 24px;
