@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "helvetica";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0px auto;
+}
+
+
+
+/*----------------------------------start bagian 2-----------------------------------------*/
+
+.top-wrapper {
+  padding: 160px 0px 110px 0px;
+  background-image: url("images/banner2.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.background-text {
+  background-color: rgba(0,0,0,0.5);
+  padding: 40px;
+}
+
+.btn-shop {
+  border: 2px solid #fddb6f;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+
+/*----------------------------------end bagian 2-----------------------------------------*/
+
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #fddb6f; 
+  opacity: 1;
+}
