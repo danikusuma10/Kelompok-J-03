@@ -1,0 +1,103 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+
+/*----------------------------------start bagian 2-----------------------------------------*/
+
+
+  .top-wrapper {
+    padding: 80px 0px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+
+/*----------------------------------start bagian 3-----------------------------------------*/
+
+
+  .box-product {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+
+/*----------------------------------start bagian 4-----------------------------------------*/
+
+
+  .message-wrapper h2{
+    font-size: 32px;
+  }
+
+  .message-wrapper p{
+    font-size: 20px;
+  }
+  
+}
+
+
+
+
+
+
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  .btn {
+    width: 100%;
+  }
+
+
+/*----------------------------------start bagian header-----------------------------------------*/
+
+  .header-list {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block !important;
+  }
+ 
+/*----------------------------------start bagian banner-----------------------------------------*/
+
+  .top-wrapper {
+    padding: 40px 0px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+/*----------------------------------start bagian product-----------------------------------------*/
+
+  .box-product {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+
+/*----------------------------------start bagian newsletter & footer-----------------------------------------*/
+
+  .message-wrapper h2{
+    font-size: 24px;
+    line-height: 46px;
+  }
+  .message-wrapper p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+}

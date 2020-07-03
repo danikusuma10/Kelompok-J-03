@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "helvetica";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0px auto;
+}
+
+.clear {
+  clear: left;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #fddb6f; 
+  color: #fff !important;
+  opacity: 1;
+}
+
+/*----------------------------------start bagian header-----------------------------------------*/
+
+.header-list a {
+    list-style: none;
+    float: right;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-list a:hover {
+    background-color: #fddb6f;
+    display: block;
+}
+
+.header-logo {
+    float: left;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 200;
+    text-shadow: 2px 3px 1px orange;
+    width: 200px;
+}
+
+.header {
+    height: 75px;
+}
+
+
+.menu-icon {
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  margin-right: 20px;
+  display: none !important;
+}
+
+
+
+/*----------------------------------start bagian banner-----------------------------------------*/
+
+.top-wrapper {
+  padding: 160px 0px 110px 0px;
+  background-image: url("../images/banner2.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.background-text {
+  background-color: rgba(0,0,0,0.5);
+  padding: 40px;
+}
+
+.btn-shop {
+  border: 2px solid #fddb6f;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+
+/*----------------------------------start bagian product-----------------------------------------*/
+
+.garis {
+    border-width: 4px;
+    border-style: solid;
+    width: 100px;
+    border-bottom-color: #fddb6f;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    margin-bottom: 30px;
+}
+
+
+ 
+.product:hover
+{
+    transition-duration: 700ms;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+ 
+.product h4
+{
+    color: #333;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+ .product h5
+{
+    color: red;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.product-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 50px;
+  color: #333333;
+}
+
+.box-product {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.product {
+  border: 1px solid gainsboro;
+  padding:10px;
+}
+
+.product img {
+  width:100%;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.btn-product {
+  color: #333 !important;
+  border: 2px solid #fddb6f;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+
+/*----------------------------------start bagian newsletter & footer-----------------------------------------*/
+
+
+
+.message-wrapper {
+  text-align: center;
+  padding: 25px 0;
+  background-color: #eee; 
+}
+
+input {
+  width: 300px;
+  height: 5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+.btn-berlangganan {
+  border: 2px solid #fddb6f;
+  background-color: #fddb6f;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: yellow;
+  color: white;
+  cursor: pointer; 
+}
+
+footer {
+  background-color: #111832;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+
+.img-sosmed {
+  width: 30px;
+  margin: 0px 10px;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-top: 40px;
+
+}
+
+
+
+
+
+
+
+
+
